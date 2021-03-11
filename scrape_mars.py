@@ -114,8 +114,8 @@ def scrape():
         info["title"] = title
     
         #getting image urls
-        image = soup.find("a", text = "Original")["href"]
-        info["img_url"] = image
+        image = soup.find("img", class_ = "wide-image")["src"]
+        info["img_url"] = f"{base}{image}"
     
         #append dictionary with title and url to list
         images.append(info)
