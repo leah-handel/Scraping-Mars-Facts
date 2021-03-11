@@ -120,7 +120,7 @@ def scrape():
         #append dictionary with title and url to list
         images.append(info)
 
-    results = {"news":{"news_title":news_title, "news_paragraph":news_p},\
+    results = {"news":{"news_title":news_title, "news_p":news_p},\
         "featured_image_url":featured_image_url,\
         "facts_table": facts_table,\
         "hemispheres": images}
