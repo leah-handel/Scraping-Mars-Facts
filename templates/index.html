@@ -7,37 +7,48 @@
   <title>Mission to Mars</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <div class="card w-100 text-center">
-            <div class="card-body">
-              <h1 class="card-title">Mission to Mars</h1>
-              <a href="http://127.0.0.1:5000/scrape" class="btn btn-primary">Scrape New Data</a>
-            </div>
+        <div class="jumbotron text-center">
+              <h1 class="display-3">Mission to Mars</h1>
+              <a href="http://127.0.0.1:5000/scrape" class="btn btn-warning">Scrape New Data</a>
           </div>
-        <div class="row">
+        <div class="row px-2 pt-2 pb-4">
             <div class="col-12">
-                <h3>Latest Mars News</h3><br>
-                <h5>{{mars.news.news_title}}</h5><br>
+                <h3>Latest Mars News:</h3>
+                <h5>{{mars.news.news_title}}</h5>
                 {{mars.news.news_p}}
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-8 col-sm-12">
-                <h3>Featured Mars Image</h3><br>
-                <img src={{mars.featured_image_url}} alt="Featured Mars Image" class="mw-100">
+        <div class="row p-2">
+            <div class="col-md-7 col-sm-12">
+                <div class="card text-center border-warning">
+                    <div class="card-body">
+                        <h3 class="card-title">Featured Mars Image</h3>
+                    </div>
+                    <img src={{mars.featured_image_url}} alt="Featured Mars Image" class="card-img-bottom">
+                
+                </div>
             </div>
-            <div class="col-md-4 col-sm-12">
-                <h3>Mars Facts</h3><br>
-                <div class="table-responsive">
-                    {{mars.facts_table|safe}}
-                    <!thanks to https://stackoverflow.com/questions/3206344/passing-html-to-template-using-flask-jinja2>
+            <div class="col-md-5 col-sm-12">
+                <div class="card text-center border-warning m-0">
+                    <div class="card-body">
+                        <h3 class="card-title">Mars Facts</h3><br>
+                        <div class="table-responsive">
+                            {{mars.facts_table|safe}}
+                            <!thanks to https://stackoverflow.com/questions/3206344/passing-html-to-template-using-flask-jinja2>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row pb-2 pt-4">
+            <div class="col-12 text-center">
+                <h3>Mars Hemispheres</h3>
+            </div>
+        </div>
+        <div class="row p-2">
             <div class="col-md-6 col-sm-12">
                 <div class="card">
                     <img src={{mars.hemispheres.0.img_url}} alt={{mars.hemispheres.0.title}} class="card-img-top">
