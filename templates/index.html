@@ -9,15 +9,14 @@
   <link rel="stylesheet" href="bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1>Mission to Mars</h1>
+        <div class="card w-100 text-center">
+            <div class="card-body">
+              <h1 class="card-title">Mission to Mars</h1>
+              <a href="http://127.0.0.1:5000/scrape" class="btn btn-primary">Scrape New Data</a>
             </div>
-        </div>
+          </div>
         <div class="row">
             <div class="col-12">
                 <h3>Latest Mars News</h3><br>
@@ -33,7 +32,8 @@
             <div class="col-md-4 col-sm-12">
                 <h3>Mars Facts</h3><br>
                 <div class="table-responsive">
-                    {{mars.facts_table}}
+                    {{mars.facts_table|safe}}
+                    <!thanks to https://stackoverflow.com/questions/3206344/passing-html-to-template-using-flask-jinja2>
                 </div>
             </div>
         </div>
