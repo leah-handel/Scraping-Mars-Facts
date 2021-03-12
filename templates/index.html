@@ -14,11 +14,14 @@
               <h1 class="display-3">Mission to Mars</h1>
               <a href="http://127.0.0.1:5000/scrape" class="btn btn-warning">Scrape New Data</a>
           </div>
-        <div class="row px-2 pt-2 pb-4">
-            <div class="col-12">
-                <h3>Latest Mars News:</h3>
+        <div class="row p-2 pb-4">
+            <div class="col-12 d-flex justify-content-center">
+                <div class="alert alert-warning" role="alert">
+                    <h3 class="alert-heading text-center">Latest Mars News</h3>
+                    <hr>
                 <h5>{{mars.news.news_title}}</h5>
                 {{mars.news.news_p}}
+                </div>
             </div>
         </div>
         <div class="row p-2">
@@ -50,7 +53,7 @@
         </div>
         <div class="row p-2">
             <div class="col-md-6 col-sm-12">
-                <div class="card">
+                <div class="card bg-warning">
                     <img src={{mars.hemispheres.0.img_url}} alt={{mars.hemispheres.0.title}} class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">{{mars.hemispheres.0.title}}</h5>
@@ -58,7 +61,7 @@
                 </div>
             </div>
             <div class="col-md-6 col-sm-12">
-                <div class="card">
+                <div class="card bg-warning">
                     <img src={{mars.hemispheres.1.img_url}} alt={{mars.hemispheres.1.title}} class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">{{mars.hemispheres.1.title}}</h5>
@@ -66,7 +69,24 @@
                 </div>
               </div>
         </div>
-
+        <div class="row p-2 pb-5">
+            <div class="col-md-6 col-sm-12">
+                <div class="card bg-warning">
+                    <img src={{mars.hemispheres.2.img_url}} alt={{mars.hemispheres.2.title}} class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">{{mars.hemispheres.2.title}}</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="card bg-warning">
+                    <img src={{mars.hemispheres.3.img_url}} alt={{mars.hemispheres.3.title}} class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">{{mars.hemispheres.3.title}}</h5>
+                    </div>
+                </div>
+              </div>
+        </div>
 
     </div>
 
