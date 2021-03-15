@@ -6,10 +6,10 @@ This project is an app that scrapes several websites for content about Mars and 
 
 ## Data Sources
 
-Latest News: [NASA](https://mars.nasa.gov/news/)
-Featured Image: [JPL](https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html)
-Facts: [Space Facts](https://space-facts.com/mars/)
-Hemispheres: [USGS](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars)
+Latest News: [NASA](https://mars.nasa.gov/news/)<br>
+Featured Image: [JPL](https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html)<br>
+Facts: [Space Facts](https://space-facts.com/mars/)<br>
+Hemispheres: [USGS](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars)<br>
 
 ## Technologies
 
