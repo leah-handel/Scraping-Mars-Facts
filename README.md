@@ -14,9 +14,9 @@ This project is an app that scrapes several websites for content about Mars and 
 
 ## To Run
 
-* run app.py, which contains the flask app
-* in a web browser, go to http://127.0.0.1:5000/
-* click the "Scrape New Data" button
+* Run app.py, which contains the flask app
+* Open http://127.0.0.1:5000/ in a web browser
+* Click the "Scrape New Data" button
 
 ## Data Sources
 
