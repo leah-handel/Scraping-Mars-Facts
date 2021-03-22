@@ -2,7 +2,7 @@
 
 ## General Info
 
-This project is an app that scrapes several websites for content about Mars and aggregates them on a landing page. It was done for Week 12 homework for the Northwestern Data Science and Visualization Bootcamp.
+This project is an app that scrapes several websites for content about Mars and aggregates them on a landing page. Done for week 12 homework for the Northwestern Data Science and Visualization Bootcamp.
 
 ## Technologies
 
@@ -20,7 +20,7 @@ This project is an app that scrapes several websites for content about Mars and 
 
 ## Data Sources
 
-Latest News: [NASA](https://mars.nasa.gov/news/)<br>
-Featured Image: [JPL](https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html)<br>
-Facts: [Space Facts](https://space-facts.com/mars/)<br>
-Hemispheres: [USGS](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars)<br>
+* Latest News: [NASA](https://mars.nasa.gov/news/)<br>
+* Featured Image: [JPL](https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html)<br>
+* Facts: [Space Facts](https://space-facts.com/mars/)<br>
+* Hemispheres: [USGS](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars)<br>
