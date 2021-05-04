@@ -1,5 +1,7 @@
 # Scraping Mars Facts
 
+<img width="758" alt="screenshot of webpage" src="https://user-images.githubusercontent.com/74382969/117035542-0d36d280-acca-11eb-9846-b8e55fe2168c.png">
+
 ## General Info
 
 This project is an app that scrapes several websites for content about Mars and aggregates them on a landing page. Done for week 12 homework for the Northwestern Data Science and Visualization Bootcamp.
